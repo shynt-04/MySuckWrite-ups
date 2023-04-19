@@ -14,7 +14,7 @@ echo "$(<filename)"
 
 Sau khi kiểm tra tất cả các file, mình tìm được flag.
 
-```cpp
+```python
 #include <iostream>
 
 int main() {
