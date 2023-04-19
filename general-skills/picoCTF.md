@@ -13,12 +13,3 @@ echo "$(<filename)"
 ```
 
 Sau khi kiểm tra tất cả các file, mình tìm được flag.
-
-```python
-#include <iostream>
-
-int main() {
-  std::cout << "Hello World\n";
-  return 0;
-}
-```
