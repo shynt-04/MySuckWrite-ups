@@ -116,11 +116,11 @@ The challenge asks us to find a `m x n` matrix consisting of only `B` and `~` ch
 
 Checking 'battleship.c', we can see more than 1000 lines of code
 
-We easily notice the map check code snippet but how to print the map with around 1000 lines of 'if'
+We easily notice the map check code snippet but how to print the map with around 1000 lines of `if`
 
-However, every 'if' have the same format that compare `a[i][j] != c` so we can change `!=` to `=` and run the code again
+However, every `if` have the same format that compare `a[i][j] != c` so we can change `!=` to `=` and run the code again
 
-The we get a map:
+Then we get a map:
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~BBBBB~~B~~~~~~B~~BBBBB~~BBBBBBB~BBBBBBB~~~~B~~BBBBB~~BBBBBBB~B~~~~~B~B~~~~B~~~~~~~~~BBBBBBB~B~~~~~~B~~~~B~~~BBBBBBB~~~~~~~~~~BBBBB~~B~~~~~~B~BBBBBBB~BBBBBB~~B
