@@ -135,3 +135,5 @@ Then we get a map:
 Flag: `shctf{sink_that_ship}`
 
 p/s: num_bullets is useless
+
+# Thanks for all the fish
