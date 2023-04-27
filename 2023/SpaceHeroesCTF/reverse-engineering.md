@@ -140,9 +140,9 @@ p/s: num_bullets is useless
 
 `Welcome, human, to the 42nd centennial dolphin acrobatics show! Better get to it. These dolphins aren't going to train themselves...`
 
-After running the exe file, a whale art and messages `...The dolphins don't appreciate your threats of violence.` appear then quit execution immediately without requiring a password or an input
+After running the exe file, a whale art and messages `...The dolphins don't appreciate your threats of violence.` appeared then quit execution immediately without requiring a password or an input
 
-Checking the ghidra, we know that the binary get input from a text file name `proc/getppid()/comm`
+Checking with the Ghidra, we know that the binary get input from a text file name `proc/getppid()/comm`
 
 ```cpp
   snprintf(local_58,0x14,"/proc/%d/comm",(ulong)uVar1);
