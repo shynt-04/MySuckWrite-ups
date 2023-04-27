@@ -33,7 +33,7 @@ And we get the `password: NENWSSEWSNENSSWEENWSNNESS`
 
 Flag: `shctf{gam3_0v3r_m@n_game_0ver}`
 
-# Galatic Federation
+# Galatic Federation 
 File requires `username/password`
 
 Disassemble with ghidra and we find two lines that check the `uesr/pass`:
