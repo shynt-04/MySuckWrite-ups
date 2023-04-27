@@ -142,7 +142,7 @@ p/s: num_bullets is useless
 
 After running the exe file, a whale art and messages `...The dolphins don't appreciate your threats of violence.` appeared then quit execution immediately without requiring a password or an input
 
-Checking with the Ghidra, we know that the binary get input from a text file name `proc/getppid()/comm`
+Checking with the Ghidra, we found that the binary get input from a text file name `proc/getppid()/comm`
 
 ```cpp
   snprintf(local_58,0x14,"/proc/%d/comm",(ulong)uVar1);
@@ -152,7 +152,7 @@ Checking with the Ghidra, we know that the binary get input from a text file nam
 
 We can get the `getppid()` value using c++ and locate the input file
 
-Diving into the decompile code, we discover that the input should be `tidbits` to go though three `if` conditions
+Diving into the decompile code, we discovered that the input should be `tidbits` to go though three `if` conditions
 
 ```cpp
   iVar2 = strncmp("fish",local_38,4);
@@ -183,7 +183,7 @@ Diving into the decompile code, we discover that the input should be `tidbits` t
   }
 ```
 
-So, first thing we do is change the input file using bash script
+So, first thing we did was change the input file using bash script
 ```bash
 echo "tidbits" > input_file
 # input_file = "/proc/getppid()/comm"
@@ -220,7 +220,7 @@ Here is the `tricks()`:
 
 It requires 5 lines of input to get the flag, however, the `proc/getppid()/comm` stores 15 characters and just one lines only
 
-And when the competion's running, we did't know how to bypass it. Then, thanks to `Gift1a` hints using file patching in Discord, we solve that by patching binary with Ghidra
+And when the competion's running, we did't know how to bypass it. Then, thanks to `Gift1a` hints using file patching in Discord, we solved that by patching binary with Ghidra
 
 After changing `0x001338a1` instruction to `NOP` then export the exe file and run the file again, we got the flag
 
