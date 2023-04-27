@@ -220,7 +220,7 @@ Here is the `tricks()`:
 
 It requires 5 lines of input to get the flag, however, the `proc/getppid()/comm` stores 15 characters and just one lines only
 
-And when the competion's running, we did't know how to bypass it. Then, thanks to `Gift1a` hints using file patching in Discord, we solved that by patching binary with Ghidra
+While the competion's running, we did't know how to bypass it. Then after the event, thanks to `Gift1a` hints in Discord that using file patching, we solved that by patching binary with Ghidra
 
 After changing `0x001338a1` instruction to `NOP` then export the exe file and run the file again, we got the flag
 
