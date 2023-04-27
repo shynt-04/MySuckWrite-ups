@@ -137,3 +137,91 @@ Flag: `shctf{sink_that_ship}`
 p/s: num_bullets is useless
 
 # Thanks for all the fish
+
+`Welcome, human, to the 42nd centennial dolphin acrobatics show! Better get to it. These dolphins aren't going to train themselves...`
+
+After running the exe file, a whale art and messages `...The dolphins don't appreciate your threats of violence.` appear then quit execution immediately without requiring a password or an input
+
+Checking the ghidra, we know that the binary get input from a text file name `proc/getppid()/comm`
+
+```cpp
+  snprintf(local_58,0x14,"/proc/%d/comm",(ulong)uVar1);
+  __stream = fopen(local_58,"r");
+  fgets(local_38,0x20,__stream);
+```
+
+We can get the `getppid()` value using c++ and locate the input file
+
+Diving into the decompile code, we discover that the input should be `tidbits` to go though three `if` conditions
+
+```cpp
+  iVar2 = strncmp("fish",local_38,4);
+  if (iVar2 == 0) {
+    puts("\nThe dolphins aren\'t in the mood for fish right now.");
+  }
+  else {
+    iVar2 = strncmp("bash",local_38,4);
+    if (iVar2 == 0) {
+      puts("\nThe dolphins don\'t appreciate your threats of violence.");
+    }
+    else {
+      iVar2 = strncmp("tidbits",local_38,7);
+      if (iVar2 == 0) {
+        puts("\nUpon seeing the tidbits, the dolphins begin their performance.");
+        puts(
+            "\nAs you give them the signal, you are amazed by the dolphins\' uncanny ability to\ nperform a double-backwards-somersault through a hoop whilst whistling \"The Star\nS pangled Banner.\"  You can\'t help but wonder if there\'s some hidden meaning behind \ntheir actions."
+            );
+        iVar2 = tricks();
+        if (iVar2 == 0) {
+          FUN_00121960();
+        }
+      }
+      else {
+        puts("\nThe dolphins are hungry...");
+      }
+    }
+  }
+```
+
+So, first thing we do is change the input file using bash script
+```bash
+echo "tidbits" > input_file
+# input_file = "/proc/getppid()/comm"
+```
+
+Then, we notice that it's not over yet, we still have to bypass the `tricks()` function.
+
+Here is the `tricks()`:
+```cpp
+  __stream = popen("/bin/grep tidbits /proc/*/comm","r");
+  if (__stream == (FILE *)0x0) {
+    puts("ERROR: This challenge depends on grep.");
+                    /* WARNING: Subroutine does not return */
+    exit(1);
+  }
+  putchar(10);
+  for (local_434 = 0;
+      (pcVar1 = fgets(local_418,0x400,__stream), pcVar1 != (char *)0x0 && (local_434 < 6));
+      local_434 = local_434 + 1) {
+    printf("Performed trick %c...\n",(ulong)(local_434 + 0x41));
+  }
+  if (local_434 < 6) {
+    if (4 < local_434) {
+      uVar2 = 0;
+      goto LAB_0014fa83;
+    }
+    puts("\nYou ran out of treats.  The dolphins are no longer following your lead.");
+  }
+  else {
+    puts("\nYou overfed the dolphins and they decided to take a nap.");
+  }
+  uVar2 = 1;
+```
+
+It requires 5 lines of input to get the flag, however, the `proc/getppid()/comm` stores 15 characters and just one lines only
+
+And when the competion's running, we did't know how to bypass it. Then, thanks to `Gift1a` hints using file patching in Discord, we solve that by patching binary with Ghidra
+
+After changing `0x001338a1` instruction to `NOP` then export the exe file and run the file again, we got the flag
+
+Flag: `shctf{0k_but_h4v3_y0u_s33n_th3_m1c3}`
