@@ -67,6 +67,8 @@ shctf{w4it_uH_wh0s_P4y1Ng_m3_2_y3L1_@_tH15_gUy?}
 [*] Got EOF while reading in interactive
 ```
 
+Flag :`shctf{w4it_uH_wh0s_P4y1Ng_m3_2_y3L1_@_tH15_gUy?}`
+
 # Guardian of the Galaxy
 Again, file requires a password and firstly we decompile it with Ghidra
 
