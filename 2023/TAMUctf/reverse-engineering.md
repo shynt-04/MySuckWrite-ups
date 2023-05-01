@@ -74,7 +74,7 @@ undefined8 FUN_00101179(int param_1,long param_2)
 }
 ```
 
-Here, `param_1` is `argc` and `param_2` is argv. We have to run the exefile with an input that will be checked with value stored at `uStack72`.
+Here, `param_1` is `argc` and `param_2` is `argv`. We have to run the exefile with an input that will be checked with value stored at `uStack72`.
 
 However, the input is modified by xor(ing) its characters with those char's index. Mean:
 
