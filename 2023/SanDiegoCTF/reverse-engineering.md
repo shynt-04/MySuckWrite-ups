@@ -58,7 +58,11 @@ if __name__ == '__main__':
     print('You got the flag! Get the treasure by submitting it.' if door(cave, magic_words) else 'This is not the flag :(')
 ```
 
-Analyze later ...
+Looking at `magic()` function and `door()` function, we know that:
+
+$DOORSHAPE_i$ = $\sum_{j=0}^{FLAGLEN} cave_{i, j} * word_{j}$
+
+We know $DOORSHAPE$ and $cave$ so we can use Gaussian (or brute force like my sol below) to solve set of modular equations with modulo `131` and recover the $word$
 
 And this is the solution code:
 
@@ -102,6 +106,8 @@ if __name__ == '__main__':
     for i in range(FLAG_LEN):
         solved.append(0)
 
+    # Make cave become trigular matrix
+
     for i in range(FLAG_LEN):
         cave[i].append(DOOR_SHAPE[i])
 
@@ -122,6 +128,8 @@ if __name__ == '__main__':
                 cave[i][j] %= MOD
             else: 
                 cave[i][j] = MOD - (abs(cave[i][j]) % MOD)
+    
+    # Brute force solve from word[35] to word[0] 
 
     for i in range(FLAG_LEN - 1, -1, -1):
         total_solved = 0
@@ -133,3 +141,5 @@ if __name__ == '__main__':
 
     print("".join(chr(x) for x in solved)) 
 ```
+
+Flag: `sdctf{0p3n_s3sAm3_bUt_1n_l337Sp3aK!}`
