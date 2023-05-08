@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
 Looking at `magic()` function and `door()` function, we know that:
 
-$DOORSHAPE_i$ = $\sum_{j=0}^{FLAGLEN} cave_{i, j} * word_{j}$
+$DOORSHAPE_i$ = $\sum_{j=0}^{35} cave_{i, j} * word_{j}$
 
 We know $DOORSHAPE$ and $cave$ so we can use Gaussian (or brute force like my sol below) to solve set of modular equations with modulo `131` and recover the $word$
 
