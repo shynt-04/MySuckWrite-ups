@@ -1,5 +1,0 @@
-- use jd-gui to decompile jar file
-- know that the input have to be a 8-bit binary
-- bruteforce 256 cases
-- 01011010
-- n00bz{y0uuu_n33d_t0_bRutefoRc3_1s_e4zyY_}
