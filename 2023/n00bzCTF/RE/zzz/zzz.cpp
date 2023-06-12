@@ -5,7 +5,7 @@ using namespace std;
 int a[105];
 
 int main() {
-    for(int i = 0; i < 256; ++ i) {
+  for(int i = 0; i < 256; ++ i) {
     if((i >> 4) == 6) a[1] = a[2] = i;
   }
   a[5] = 123;
