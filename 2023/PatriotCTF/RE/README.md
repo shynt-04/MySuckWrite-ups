@@ -412,7 +412,7 @@ Then I find all LSEEK instruction and look for the value that `MOV` to `**[rbp+2
 [1885566054, 2071358815, 1915975269, 1920152425, 1850171185, 1935635570, 828599161, 2100310064]
 ```
 
-Convert  and get the flag:
+Convert and get the flag:
 
 > pctf{vm_r3vers3inG_1s_tr1cky}
 
