@@ -420,6 +420,9 @@ Convert and get the flag:
 
 > Expert - 29 solves
 
+> p/s: read the easier one first
+
+
 `vm2` is just like `vm` but extend 6 more type of instruction:
 
 ```c
