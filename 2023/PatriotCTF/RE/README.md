@@ -404,7 +404,7 @@ LSEEK 4 bytes
 EXIT
 ```
 
-This is very tricky here, `1885566054` is the value we need. Convert it to hexadecimal then convert to ascii_string we get `pctf`, look good :D
+It is very tricky here, `1885566054` is the value we need. Convert it to hexadecimal then convert to ascii_string we get `pctf`, look good :D
 
 Then I find all LSEEK instruction and look for the value that `MOV` to `**[rbp+24]`:
 
@@ -419,3 +419,4 @@ Convert and get the flag:
 ## Reduced Reduced Instruction Set 2
 
 > Expert - 29 solves
+
