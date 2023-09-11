@@ -1,6 +1,8 @@
 # Reverse Engineering (Solved 7/8)
 
-## Python XOR
+## Python XOR 
+
+> Beginner - 569 solves
 
 ```python
 from string import punctuation
@@ -19,6 +21,8 @@ main()
 > Flag{python_is_e@sy}
 
 ## Coffee Shop
+
+> Easy - 504 solves
 
 [Java Decompiler](http://www.javadecompilers.com)
 
@@ -44,9 +48,9 @@ Decode base64: R2FsZUJvZXR0aWNoZXI=
 
 > PCTF{GaleBoetticher}
 
-
-
 ## Patchwork
+
+> Easy - 355 solves
 
 There is a jump instruction before calling `give_flag()` so just patch it to NOP with Ghidra
 
@@ -61,6 +65,8 @@ Patched:
 > PCTF{JuMp_uP_4nd_g3t_d0Wn}
 
 ## Suboptimal
+
+> Medium - 170 solves
 
 Simple reversing, here is my script:
 
@@ -92,6 +98,8 @@ int main() {
 > pctf{simproc_r_optimal}
 
 ## Python Garbage Compiler
+
+> Medium - 145 solves
 
 Simple python reversing, notice that the seed in only 10 so we can brute force the flag:
 
@@ -129,7 +137,12 @@ for i in range(1000):
 
 > PCTF{H0w_D1d_y0U_br34k_my_1337_c0de?}
 
-
 ## Reduced Reduced Instruction Set
 
+> Hard - 47 solves
+
+
+
 ## Reduced Reduced Instruction Set 2
+
+> Expert - 29 solves
