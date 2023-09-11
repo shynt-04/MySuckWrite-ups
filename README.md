@@ -10,3 +10,5 @@ These are my naive write-ups for CTFs I joined.
 | 2023 | San Diego CTF | 108 | im_dragon | | https://discord.gg/GpC6YFrf4h |
 | 2023 | n00bzCTF | 81 | im_dragon | https://github.com/n00bzUnit3d/n00bzCTF2023-OfficalWriteups | https://discord.gg/Kze7sjpgf7 |
 | 2023 | DownUnderCTF| 313 | shynt_ | https://github.com/DownUnderCTF/Challenges_2023_Public | https://duc.tf/discord |
+| 2023 | SekaiCTF | 187 | im_dragon | https://github.com/project-sekai-ctf/sekaictf-2023 | https://discord.gg/6gk7jhCgGX |
+| 2023 | PatriotCTF | 46 | im_dragon | https://discord.gg/Z8pA43vQcW | https://github.com/MasonCompetitiveCyber/PatriotCTF2023 |
