@@ -1,0 +1,5389 @@
+4
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 24
+*[rbp+0] = 24
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 24
+MOV *[rbp+0] = 30
+*[rbp+0] = 30
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 30
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+MOV *[rbp+4] = 30
+*[rbp+4] = 30
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 840
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 840
+MOV *[rbp+0] = 48
+*[rbp+0] = 48
+MOV *[rbp+4] = 59
+*[rbp+4] = 59
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2832
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2832
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2832
+ADD *[rbp+0] += 1
+*[rbp+0] = 2833
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2833
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2833
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 840
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2379720
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2379720
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379720
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2379720
+ADD *[rbp+0] += 1
+*[rbp+0] = 2379721
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379721
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2379721
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 30
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 71391630
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 71391630
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391630
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 71391630
+ADD *[rbp+0] += 1
+*[rbp+0] = 71391631
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391631
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 71391631
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 24
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1713399144
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1713399144
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1713399144
+WRITE 4 bytes of **[rbp+24]
+66206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1713399144
+MOV *[rbp+0] = 15
+*[rbp+0] = 15
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 24
+*[rbp+4] = 24
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 456
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 456
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 456
+ADD *[rbp+0] += 1
+*[rbp+0] = 457
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 457
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 457
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6855
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6855
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6855
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 190
+*[rbp+0] = 190
+MOV *[rbp+4] = 250
+*[rbp+4] = 250
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 47500
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 47500
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 47500
+ADD *[rbp+0] += 1
+*[rbp+0] = 47501
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 47501
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 47501
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 285006
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 285006
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 285006
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 285006
+ADD *[rbp+0] += 1
+*[rbp+0] = 285007
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 285007
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 285007
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6855
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1953722985
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1953722985
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1953722985
+WRITE 4 bytes of **[rbp+24]
+74737269
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1953722985
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 32
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 35
+*[rbp+4] = 35
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 490
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 490
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 490
+ADD *[rbp+0] += 1
+*[rbp+0] = 491
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 491
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 491
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 32
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 15712
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 15712
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15712
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 268
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 268
+ADD *[rbp+0] += 1
+*[rbp+0] = 269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 269
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 458
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 458
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 458
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 269
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 123202
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 123202
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123202
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 123202
+ADD *[rbp+0] += 1
+*[rbp+0] = 123203
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123203
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 123203
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15712
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935765536
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1935765536
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1935765536
+WRITE 4 bytes of **[rbp+24]
+73617020
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1935765536
+MOV *[rbp+0] = 51
+*[rbp+0] = 51
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 51
+MOV *[rbp+0] = 64
+*[rbp+0] = 64
+MOV *[rbp+4] = 87
+*[rbp+4] = 87
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5568
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 104
+*[rbp+4] = 104
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6760
+ADD *[rbp+0] += 1
+*[rbp+0] = 6761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5568
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 37645248
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 37645248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645248
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 37645248
+ADD *[rbp+0] += 1
+*[rbp+0] = 37645249
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645249
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 37645249
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 51
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1919907699
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1919907699
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1919907699
+WRITE 4 bytes of **[rbp+24]
+726f7773
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1919907699
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 378
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 378
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 378
+ADD *[rbp+0] += 1
+*[rbp+0] = 379
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 379
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 379
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 758
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 886
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 886
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 758
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 671588
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 671588
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+WRITE 4 bytes of **[rbp+24]
+a3f64
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 671588
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+MOV *[rbp+0] = 159
+*[rbp+0] = 159
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 159
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 131
+*[rbp+4] = 131
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 262
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 262
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 262
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 159
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 41658
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 41658
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 41658
+MOV *[rbp+0] = 122
+*[rbp+0] = 122
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 122
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+MOV *[rbp+4] = 53
+*[rbp+4] = 53
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 371
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 371
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 371
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 122
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 45262
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 45262
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 45262
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 45262
+ADD *[rbp+0] += 1
+*[rbp+0] = 45263
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 45263
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 45263
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 41658
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1885566054
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 1885566054
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 1885566054
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1885566054
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 671588
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1884894466
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 137
+*[rbp+4] = 137
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2740
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2740
+MOV *[rbp+0] = 3
+*[rbp+0] = 3
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 131
+*[rbp+4] = 131
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1048
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1048
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1048
+ADD *[rbp+0] += 1
+*[rbp+0] = 1049
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1049
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1049
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 3
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3147
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3147
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3147
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3147
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2740
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 8622780
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 8622780
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622780
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 8622780
+ADD *[rbp+0] += 1
+*[rbp+0] = 8622781
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622781
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 8622781
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 28
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 241437868
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 241437868
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437868
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 241437868
+ADD *[rbp+0] += 1
+*[rbp+0] = 241437869
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437869
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 241437869
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1931502952
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1931502952
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1931502952
+WRITE 4 bytes of **[rbp+24]
+73206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1931502952
+MOV *[rbp+0] = 11
+*[rbp+0] = 11
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 11
+MOV *[rbp+0] = 10
+*[rbp+0] = 10
+MOV *[rbp+4] = 41
+*[rbp+4] = 41
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 410
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 410
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 71
+*[rbp+4] = 71
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 568
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 568
+ADD *[rbp+0] += 1
+*[rbp+0] = 569
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 569
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 722
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 722
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 722
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 569
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 410818
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 410818
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 410818
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 410818
+ADD *[rbp+0] += 1
+*[rbp+0] = 410819
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 410819
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 410819
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 410
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 168435790
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 168435790
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 168435790
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 168435790
+ADD *[rbp+0] += 1
+*[rbp+0] = 168435791
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 168435791
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 168435791
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 11
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1852793701
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1852793701
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1852793701
+WRITE 4 bytes of **[rbp+24]
+6e6f6365
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1852793701
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 29
+*[rbp+0] = 29
+MOV *[rbp+4] = 54
+*[rbp+4] = 54
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1566
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1566
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1566
+ADD *[rbp+0] += 1
+*[rbp+0] = 1567
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1567
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1567
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6268
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6268
+MOV *[rbp+0] = 182
+*[rbp+0] = 182
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 182
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 179
+*[rbp+4] = 179
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1432
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1432
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1432
+ADD *[rbp+0] += 1
+*[rbp+0] = 1433
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1433
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1433
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 182
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 260806
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 260806
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 260806
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 260806
+ADD *[rbp+0] += 1
+*[rbp+0] = 260807
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 260807
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 260807
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6268
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1634738276
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1634738276
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1634738276
+WRITE 4 bytes of **[rbp+24]
+61702064
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1634738276
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 18
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 486
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 486
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 486
+ADD *[rbp+0] += 1
+*[rbp+0] = 487
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 487
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 487
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1948
+ADD *[rbp+0] += 1
+*[rbp+0] = 1949
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1949
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1949
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 18
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 35082
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 35082
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35082
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 35082
+ADD *[rbp+0] += 1
+*[rbp+0] = 35083
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35083
+MOV *[rbp+0] = 35
+*[rbp+0] = 35
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 760
+ADD *[rbp+0] += 1
+*[rbp+0] = 761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1522
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1522
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1522
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1522
+ADD *[rbp+0] += 1
+*[rbp+0] = 1523
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1523
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1523
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 53305
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 53305
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 53305
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 53305
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35083
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1870099315
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1870099315
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1870099315
+WRITE 4 bytes of **[rbp+24]
+6f777373
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1870099315
+MOV *[rbp+0] = 71
+*[rbp+0] = 71
+MOV *[rbp+4] = 86
+*[rbp+4] = 86
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6106
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6106
+MOV *[rbp+0] = 37
+*[rbp+0] = 37
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 760
+ADD *[rbp+0] += 1
+*[rbp+0] = 761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 37
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 28157
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 28157
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28157
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 28157
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6106
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 171926642
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 171926642
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 171926642
+WRITE 4 bytes of **[rbp+24]
+a3f6472
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 171926642
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 171926642
+MOV *[rbp+0] = 95
+*[rbp+0] = 95
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 21755
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 21755
+MOV *[rbp+0] = 52
+*[rbp+0] = 52
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 52
+MOV *[rbp+0] = 30
+*[rbp+0] = 30
+MOV *[rbp+4] = 61
+*[rbp+4] = 61
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1830
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1830
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1830
+ADD *[rbp+0] += 1
+*[rbp+0] = 1831
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1831
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1831
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 52
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 95212
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 95212
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 95212
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 95212
+ADD *[rbp+0] += 1
+*[rbp+0] = 95213
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 95213
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 95213
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 21755
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2071358815
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 2071358815
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 2071358815
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2071358815
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 171926642
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1899432173
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 34
+*[rbp+0] = 34
+MOV *[rbp+4] = 39
+*[rbp+4] = 39
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1326
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1326
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1326
+ADD *[rbp+0] += 1
+*[rbp+0] = 1327
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1327
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1327
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 10616
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 10616
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10616
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 22
+*[rbp+4] = 22
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 418
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 418
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 418
+ADD *[rbp+0] += 1
+*[rbp+0] = 419
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 419
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+MOV *[rbp+4] = 73
+*[rbp+4] = 73
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 438
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 438
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 438
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 419
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 183522
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 183522
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 183522
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 183522
+ADD *[rbp+0] += 1
+*[rbp+0] = 183523
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 183523
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 183523
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 10616
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948280168
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948280168
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948280168
+WRITE 4 bytes of **[rbp+24]
+74206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948280168
+MOV *[rbp+0] = 216
+*[rbp+0] = 216
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 216
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 22
+*[rbp+4] = 22
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 396
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 396
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 396
+ADD *[rbp+0] += 1
+*[rbp+0] = 397
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 397
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 397
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2382
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2382
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2382
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2382
+ADD *[rbp+0] += 1
+*[rbp+0] = 2383
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2383
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 24
+*[rbp+4] = 24
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 408
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 408
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 408
+ADD *[rbp+0] += 1
+*[rbp+0] = 409
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 409
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 409
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1636
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1636
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1636
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1636
+ADD *[rbp+0] += 1
+*[rbp+0] = 1637
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1637
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1637
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3274
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3274
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3274
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3274
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2383
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 7801942
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 7801942
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7801942
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 7801942
+ADD *[rbp+0] += 1
+*[rbp+0] = 7801943
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7801943
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 7801943
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 216
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1685219688
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1685219688
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1685219688
+WRITE 4 bytes of **[rbp+24]
+64726968
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1685219688
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 32
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 35
+*[rbp+4] = 35
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 490
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 490
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 490
+ADD *[rbp+0] += 1
+*[rbp+0] = 491
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 491
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 491
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 32
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 15712
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 15712
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15712
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 268
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 268
+ADD *[rbp+0] += 1
+*[rbp+0] = 269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 269
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 458
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 458
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 458
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 269
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 123202
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 123202
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123202
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 123202
+ADD *[rbp+0] += 1
+*[rbp+0] = 123203
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123203
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 123203
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15712
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935765536
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1935765536
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1935765536
+WRITE 4 bytes of **[rbp+24]
+73617020
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1935765536
+MOV *[rbp+0] = 51
+*[rbp+0] = 51
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 51
+MOV *[rbp+0] = 64
+*[rbp+0] = 64
+MOV *[rbp+4] = 87
+*[rbp+4] = 87
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5568
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 104
+*[rbp+4] = 104
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6760
+ADD *[rbp+0] += 1
+*[rbp+0] = 6761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5568
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 37645248
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 37645248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645248
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 37645248
+ADD *[rbp+0] += 1
+*[rbp+0] = 37645249
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645249
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 37645249
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 51
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1919907699
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1919907699
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1919907699
+WRITE 4 bytes of **[rbp+24]
+726f7773
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1919907699
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 378
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 378
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 378
+ADD *[rbp+0] += 1
+*[rbp+0] = 379
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 379
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 379
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 758
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 886
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 886
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 758
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 671588
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 671588
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+WRITE 4 bytes of **[rbp+24]
+a3f64
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 671588
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+MOV *[rbp+0] = 158
+*[rbp+0] = 158
+MOV *[rbp+4] = 179
+*[rbp+4] = 179
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 28282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 28282
+ADD *[rbp+0] += 1
+*[rbp+0] = 28283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28283
+MOV *[rbp+0] = 193
+*[rbp+0] = 193
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 193
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 351
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 351
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 351
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 193
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 67743
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 67743
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67743
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 67743
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 28283
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1915975269
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 1915975269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 1915975269
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1915975269
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 671588
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1915303681
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 24
+*[rbp+0] = 24
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 24
+MOV *[rbp+0] = 30
+*[rbp+0] = 30
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 30
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+MOV *[rbp+4] = 30
+*[rbp+4] = 30
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 840
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 840
+MOV *[rbp+0] = 48
+*[rbp+0] = 48
+MOV *[rbp+4] = 59
+*[rbp+4] = 59
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2832
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2832
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2832
+ADD *[rbp+0] += 1
+*[rbp+0] = 2833
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2833
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2833
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 840
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2379720
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2379720
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379720
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2379720
+ADD *[rbp+0] += 1
+*[rbp+0] = 2379721
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379721
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2379721
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 30
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 71391630
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 71391630
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391630
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 71391630
+ADD *[rbp+0] += 1
+*[rbp+0] = 71391631
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391631
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 71391631
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 24
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1713399144
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1713399144
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1713399144
+WRITE 4 bytes of **[rbp+24]
+66206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1713399144
+MOV *[rbp+0] = 71
+*[rbp+0] = 71
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 31
+*[rbp+4] = 31
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 589
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 589
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 589
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 71
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 41819
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 41819
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 41819
+MOV *[rbp+0] = 137
+*[rbp+0] = 137
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 137
+MOV *[rbp+0] = 11
+*[rbp+0] = 11
+MOV *[rbp+4] = 31
+*[rbp+4] = 31
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 341
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 341
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 341
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 137
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 46717
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 46717
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 46717
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 46717
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 41819
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1953658223
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1953658223
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1953658223
+WRITE 4 bytes of **[rbp+24]
+7472756f
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1953658223
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+MOV *[rbp+4] = 30
+*[rbp+4] = 30
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 840
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 840
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 107
+*[rbp+4] = 107
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 428
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 428
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+MOV *[rbp+4] = 71
+*[rbp+4] = 71
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2272
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2272
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2272
+ADD *[rbp+0] += 1
+*[rbp+0] = 2273
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2273
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2273
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4546
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4546
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4546
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 4546
+ADD *[rbp+0] += 1
+*[rbp+0] = 4547
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4547
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 4547
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 428
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1946116
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1946116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1946116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1946116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1946117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1946117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1946117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 840
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1634738280
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1634738280
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1634738280
+WRITE 4 bytes of **[rbp+24]
+61702068
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1634738280
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 18
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 486
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 486
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 486
+ADD *[rbp+0] += 1
+*[rbp+0] = 487
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 487
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 487
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1948
+ADD *[rbp+0] += 1
+*[rbp+0] = 1949
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1949
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1949
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 18
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 35082
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 35082
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35082
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 35082
+ADD *[rbp+0] += 1
+*[rbp+0] = 35083
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35083
+MOV *[rbp+0] = 35
+*[rbp+0] = 35
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 760
+ADD *[rbp+0] += 1
+*[rbp+0] = 761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1522
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1522
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1522
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1522
+ADD *[rbp+0] += 1
+*[rbp+0] = 1523
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1523
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1523
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 53305
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 53305
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 53305
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 53305
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35083
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1870099315
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1870099315
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1870099315
+WRITE 4 bytes of **[rbp+24]
+6f777373
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1870099315
+MOV *[rbp+0] = 71
+*[rbp+0] = 71
+MOV *[rbp+4] = 86
+*[rbp+4] = 86
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6106
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6106
+MOV *[rbp+0] = 37
+*[rbp+0] = 37
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 760
+ADD *[rbp+0] += 1
+*[rbp+0] = 761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 37
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 28157
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 28157
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28157
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 28157
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6106
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 171926642
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 171926642
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 171926642
+WRITE 4 bytes of **[rbp+24]
+a3f6472
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 171926642
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 171926642
+MOV *[rbp+0] = 25
+*[rbp+0] = 25
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 25
+MOV *[rbp+0] = 12
+*[rbp+0] = 12
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 12
+MOV *[rbp+0] = 22
+*[rbp+0] = 22
+MOV *[rbp+4] = 33
+*[rbp+4] = 33
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 726
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 726
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 726
+ADD *[rbp+0] += 1
+*[rbp+0] = 727
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 727
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 727
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 12
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 8724
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 8724
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8724
+MOV *[rbp+0] = 71
+*[rbp+0] = 71
+MOV *[rbp+4] = 124
+*[rbp+4] = 124
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 8804
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8804
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 8804
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8724
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 76806096
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 76806096
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 76806096
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 76806096
+ADD *[rbp+0] += 1
+*[rbp+0] = 76806097
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 76806097
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 76806097
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 25
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1920152425
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 1920152425
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 1920152425
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1920152425
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 171926642
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1748225783
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 24
+*[rbp+0] = 24
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 24
+MOV *[rbp+0] = 30
+*[rbp+0] = 30
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 30
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+MOV *[rbp+4] = 30
+*[rbp+4] = 30
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 840
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 840
+MOV *[rbp+0] = 48
+*[rbp+0] = 48
+MOV *[rbp+4] = 59
+*[rbp+4] = 59
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2832
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2832
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2832
+ADD *[rbp+0] += 1
+*[rbp+0] = 2833
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2833
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2833
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 840
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2379720
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2379720
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379720
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2379720
+ADD *[rbp+0] += 1
+*[rbp+0] = 2379721
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2379721
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2379721
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 30
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 71391630
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 71391630
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391630
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 71391630
+ADD *[rbp+0] += 1
+*[rbp+0] = 71391631
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 71391631
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 71391631
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 24
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1713399144
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1713399144
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1713399144
+WRITE 4 bytes of **[rbp+24]
+66206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1713399144
+MOV *[rbp+0] = 24
+*[rbp+0] = 24
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 24
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 41
+*[rbp+4] = 41
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 738
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 738
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 738
+ADD *[rbp+0] += 1
+*[rbp+0] = 739
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 739
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 739
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2956
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2956
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2956
+MOV *[rbp+0] = 23
+*[rbp+0] = 23
+MOV *[rbp+4] = 179
+*[rbp+4] = 179
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 4117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 4117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2956
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 12169852
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 12169852
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 12169852
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 12169852
+ADD *[rbp+0] += 1
+*[rbp+0] = 12169853
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 12169853
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 12169853
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 73019118
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 73019118
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 73019118
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 73019118
+ADD *[rbp+0] += 1
+*[rbp+0] = 73019119
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 73019119
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 73019119
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 24
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1752458856
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1752458856
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752458856
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1752458856
+ADD *[rbp+0] += 1
+*[rbp+0] = 1752458857
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752458857
+WRITE 4 bytes of **[rbp+24]
+68746669
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1752458857
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 32
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 35
+*[rbp+4] = 35
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 490
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 490
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 490
+ADD *[rbp+0] += 1
+*[rbp+0] = 491
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 491
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 491
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 32
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 15712
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 15712
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15712
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 268
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 268
+ADD *[rbp+0] += 1
+*[rbp+0] = 269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 269
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 458
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 458
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 458
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 269
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 123202
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 123202
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123202
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 123202
+ADD *[rbp+0] += 1
+*[rbp+0] = 123203
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123203
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 123203
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15712
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935765536
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1935765536
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1935765536
+WRITE 4 bytes of **[rbp+24]
+73617020
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1935765536
+MOV *[rbp+0] = 51
+*[rbp+0] = 51
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 51
+MOV *[rbp+0] = 64
+*[rbp+0] = 64
+MOV *[rbp+4] = 87
+*[rbp+4] = 87
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5568
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 104
+*[rbp+4] = 104
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6760
+ADD *[rbp+0] += 1
+*[rbp+0] = 6761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5568
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 37645248
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 37645248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645248
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 37645248
+ADD *[rbp+0] += 1
+*[rbp+0] = 37645249
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645249
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 37645249
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 51
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1919907699
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1919907699
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1919907699
+WRITE 4 bytes of **[rbp+24]
+726f7773
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1919907699
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 378
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 378
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 378
+ADD *[rbp+0] += 1
+*[rbp+0] = 379
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 379
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 379
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 758
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 886
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 886
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 758
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 671588
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 671588
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+WRITE 4 bytes of **[rbp+24]
+a3f64
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 671588
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+MOV *[rbp+0] = 5
+*[rbp+0] = 5
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5
+MOV *[rbp+0] = 22
+*[rbp+0] = 22
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 572
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 572
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 722
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 722
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+MOV *[rbp+4] = 32
+*[rbp+4] = 32
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 896
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 896
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 896
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 722
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 646912
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 646912
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 646912
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 646912
+ADD *[rbp+0] += 1
+*[rbp+0] = 646913
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 646913
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 646913
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 572
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 370034236
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 370034236
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 370034236
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 370034236
+ADD *[rbp+0] += 1
+*[rbp+0] = 370034237
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 370034237
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 370034237
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1850171185
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 1850171185
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 1850171185
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1850171185
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 671588
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1849499597
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 137
+*[rbp+4] = 137
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2740
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2740
+MOV *[rbp+0] = 3
+*[rbp+0] = 3
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 131
+*[rbp+4] = 131
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1048
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1048
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1048
+ADD *[rbp+0] += 1
+*[rbp+0] = 1049
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1049
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1049
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 3
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3147
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3147
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3147
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3147
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2740
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 8622780
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 8622780
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622780
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 8622780
+ADD *[rbp+0] += 1
+*[rbp+0] = 8622781
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622781
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 8622781
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 28
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 241437868
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 241437868
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437868
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 241437868
+ADD *[rbp+0] += 1
+*[rbp+0] = 241437869
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437869
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 241437869
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1931502952
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1931502952
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1931502952
+WRITE 4 bytes of **[rbp+24]
+73206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1931502952
+MOV *[rbp+0] = 5
+*[rbp+0] = 5
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5
+MOV *[rbp+0] = 10
+*[rbp+0] = 10
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 29
+*[rbp+4] = 29
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 522
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 522
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 522
+ADD *[rbp+0] += 1
+*[rbp+0] = 523
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 523
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 523
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 10
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 5230
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 5230
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5230
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 5230
+ADD *[rbp+0] += 1
+*[rbp+0] = 5231
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5231
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 5231
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26155
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26155
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26155
+MOV *[rbp+0] = 78
+*[rbp+0] = 78
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 78
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 33
+*[rbp+4] = 33
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 858
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 858
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 858
+ADD *[rbp+0] += 1
+*[rbp+0] = 859
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 859
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 859
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 78
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 67002
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 67002
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67002
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 67002
+ADD *[rbp+0] += 1
+*[rbp+0] = 67003
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67003
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 67003
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26155
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1752463465
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1752463465
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752463465
+WRITE 4 bytes of **[rbp+24]
+68747869
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1752463465
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 32
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 35
+*[rbp+4] = 35
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 490
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 490
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 490
+ADD *[rbp+0] += 1
+*[rbp+0] = 491
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 491
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 491
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 32
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 15712
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 15712
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15712
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 268
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 268
+ADD *[rbp+0] += 1
+*[rbp+0] = 269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 269
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 458
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 458
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 458
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 269
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 123202
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 123202
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123202
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 123202
+ADD *[rbp+0] += 1
+*[rbp+0] = 123203
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123203
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 123203
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15712
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935765536
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1935765536
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1935765536
+WRITE 4 bytes of **[rbp+24]
+73617020
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1935765536
+MOV *[rbp+0] = 51
+*[rbp+0] = 51
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 51
+MOV *[rbp+0] = 64
+*[rbp+0] = 64
+MOV *[rbp+4] = 87
+*[rbp+4] = 87
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5568
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 104
+*[rbp+4] = 104
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6760
+ADD *[rbp+0] += 1
+*[rbp+0] = 6761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5568
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 37645248
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 37645248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645248
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 37645248
+ADD *[rbp+0] += 1
+*[rbp+0] = 37645249
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645249
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 37645249
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 51
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1919907699
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1919907699
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1919907699
+WRITE 4 bytes of **[rbp+24]
+726f7773
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1919907699
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 378
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 378
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 378
+ADD *[rbp+0] += 1
+*[rbp+0] = 379
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 379
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 379
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 758
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 886
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 886
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 758
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 671588
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 671588
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+WRITE 4 bytes of **[rbp+24]
+a3f64
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 671588
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+MOV *[rbp+0] = 78
+*[rbp+0] = 78
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 78
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 78
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 40638
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 40638
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 40638
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 40638
+ADD *[rbp+0] += 1
+*[rbp+0] = 40639
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 40639
+MOV *[rbp+0] = 110
+*[rbp+0] = 110
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 110
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 24
+*[rbp+4] = 24
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 432
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 432
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 432
+ADD *[rbp+0] += 1
+*[rbp+0] = 433
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 433
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 433
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 110
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 47630
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 47630
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 47630
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 47630
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 40639
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935635570
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 1935635570
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 1935635570
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1935635570
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 671588
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 1934963982
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 28
+*[rbp+0] = 28
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 28
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 137
+*[rbp+4] = 137
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2740
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2740
+MOV *[rbp+0] = 3
+*[rbp+0] = 3
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 131
+*[rbp+4] = 131
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1048
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1048
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1048
+ADD *[rbp+0] += 1
+*[rbp+0] = 1049
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1049
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1049
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 3
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3147
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3147
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3147
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3147
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2740
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 8622780
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 8622780
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622780
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 8622780
+ADD *[rbp+0] += 1
+*[rbp+0] = 8622781
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8622781
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 8622781
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 28
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 241437868
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 241437868
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437868
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 241437868
+ADD *[rbp+0] += 1
+*[rbp+0] = 241437869
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 241437869
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 241437869
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1931502952
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1931502952
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1931502952
+WRITE 4 bytes of **[rbp+24]
+73206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1931502952
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 55
+*[rbp+4] = 55
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1705
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1705
+MOV *[rbp+0] = 30
+*[rbp+0] = 30
+MOV *[rbp+4] = 34
+*[rbp+4] = 34
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1020
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1020
+MOV *[rbp+0] = 15
+*[rbp+0] = 15
+MOV *[rbp+4] = 71
+*[rbp+4] = 71
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1065
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1065
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1065
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1020
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1086300
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1086300
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1086300
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1086300
+ADD *[rbp+0] += 1
+*[rbp+0] = 1086301
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1086301
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1086301
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1705
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1852143205
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1852143205
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1852143205
+WRITE 4 bytes of **[rbp+24]
+6e657665
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1852143205
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 48
+*[rbp+0] = 48
+MOV *[rbp+4] = 139
+*[rbp+4] = 139
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6672
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6672
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6672
+ADD *[rbp+0] += 1
+*[rbp+0] = 6673
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6673
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6673
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26692
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26692
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26692
+MOV *[rbp+0] = 149
+*[rbp+0] = 149
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 149
+MOV *[rbp+0] = 11
+*[rbp+0] = 11
+MOV *[rbp+4] = 43
+*[rbp+4] = 43
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 473
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 473
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 473
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 149
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 70477
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 70477
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 70477
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 70477
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26692
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1881172084
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1881172084
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1881172084
+WRITE 4 bytes of **[rbp+24]
+70206874
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1881172084
+MOV *[rbp+0] = 158
+*[rbp+0] = 158
+MOV *[rbp+4] = 216
+*[rbp+4] = 216
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 34128
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 34128
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 34128
+ADD *[rbp+0] += 1
+*[rbp+0] = 34129
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 34129
+MOV *[rbp+0] = 160
+*[rbp+0] = 160
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 160
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+MOV *[rbp+4] = 61
+*[rbp+4] = 61
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 366
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 366
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 366
+ADD *[rbp+0] += 1
+*[rbp+0] = 367
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 367
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 367
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 160
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 58720
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 58720
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 58720
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 58720
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 34129
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2004054880
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2004054880
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2004054880
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2004054880
+ADD *[rbp+0] += 1
+*[rbp+0] = 2004054881
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2004054881
+WRITE 4 bytes of **[rbp+24]
+77737361
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 2004054881
+MOV *[rbp+0] = 41
+*[rbp+0] = 41
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 41
+MOV *[rbp+0] = 12
+*[rbp+0] = 12
+MOV *[rbp+4] = 59
+*[rbp+4] = 59
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 708
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 708
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 708
+ADD *[rbp+0] += 1
+*[rbp+0] = 709
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 709
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 709
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 41
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 29069
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 29069
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 29069
+MOV *[rbp+0] = 22
+*[rbp+0] = 22
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 22
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 12
+*[rbp+0] = 12
+MOV *[rbp+4] = 23
+*[rbp+4] = 23
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 276
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 276
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 276
+ADD *[rbp+0] += 1
+*[rbp+0] = 277
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 277
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 277
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1662
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1662
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1662
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1662
+ADD *[rbp+0] += 1
+*[rbp+0] = 1663
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1663
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1663
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 22
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 36586
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 36586
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 36586
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 36586
+ADD *[rbp+0] += 1
+*[rbp+0] = 36587
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 36587
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 36587
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 29069
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1063547503
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1063547503
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1063547503
+WRITE 4 bytes of **[rbp+24]
+3f64726f
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1063547503
+MOV *[rbp+0] = 10
+*[rbp+0] = 10
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10
+WRITE 4 bytes of **[rbp+24]
+a
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 10
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 5759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 5759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+MOV *[rbp+4] = 43
+*[rbp+4] = 43
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 301
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 301
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 239
+*[rbp+4] = 239
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 478
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 478
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 478
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 301
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 143878
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 143878
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 143878
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 143878
+ADD *[rbp+0] += 1
+*[rbp+0] = 143879
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 143879
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 143879
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5759
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 828599161
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 828599161
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 828599161
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 828599161
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 10
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 828599151
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 13
+*[rbp+0] = 13
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 13
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 520
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 520
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 520
+ADD *[rbp+0] += 1
+*[rbp+0] = 521
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 521
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 521
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 13
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 6773
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 6773
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6773
+MOV *[rbp+0] = 138
+*[rbp+0] = 138
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 138
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 58
+*[rbp+4] = 58
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2088
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2088
+ADD *[rbp+0] += 1
+*[rbp+0] = 2089
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2089
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2089
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 138
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 288282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 288282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288282
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 288282
+ADD *[rbp+0] += 1
+*[rbp+0] = 288283
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 288283
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 288283
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6773
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1952540759
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1952540759
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1952540759
+WRITE 4 bytes of **[rbp+24]
+74616857
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1952540759
+MOV *[rbp+0] = 7
+*[rbp+0] = 7
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 143
+*[rbp+4] = 143
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3718
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3718
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3718
+ADD *[rbp+0] += 1
+*[rbp+0] = 3719
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3719
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3719
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 7
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 26033
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 26033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26033
+MOV *[rbp+0] = 67
+*[rbp+0] = 67
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 67
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 36
+*[rbp+4] = 36
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1116
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1116
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1116
+ADD *[rbp+0] += 1
+*[rbp+0] = 1117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1117
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1117
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 67
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 74839
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 74839
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 74839
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 74839
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26033
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948283687
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948283687
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948283687
+WRITE 4 bytes of **[rbp+24]
+74207327
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1948283687
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 163
+*[rbp+4] = 163
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 652
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 652
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 652
+ADD *[rbp+0] += 1
+*[rbp+0] = 653
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 653
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 653
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1306
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1306
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1306
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1306
+ADD *[rbp+0] += 1
+*[rbp+0] = 1307
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1307
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1307
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 10456
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 10456
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10456
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 19
+*[rbp+4] = 19
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 266
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 266
+MOV *[rbp+0] = 5
+*[rbp+0] = 5
+MOV *[rbp+4] = 61
+*[rbp+4] = 61
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 305
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 305
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 305
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 266
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 81130
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 81130
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 81130
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 81130
+ADD *[rbp+0] += 1
+*[rbp+0] = 81131
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 81131
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 81131
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 162262
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 162262
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 162262
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 162262
+ADD *[rbp+0] += 1
+*[rbp+0] = 162263
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 162263
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 162263
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 10456
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1696621928
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1696621928
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1696621928
+WRITE 4 bytes of **[rbp+24]
+65206568
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1696621928
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 34
+*[rbp+4] = 34
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 612
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 612
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 612
+ADD *[rbp+0] += 1
+*[rbp+0] = 613
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 613
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 613
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4904
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4904
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4904
+MOV *[rbp+0] = 152
+*[rbp+0] = 152
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 152
+MOV *[rbp+0] = 47
+*[rbp+0] = 47
+MOV *[rbp+4] = 50
+*[rbp+4] = 50
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2350
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2350
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2350
+ADD *[rbp+0] += 1
+*[rbp+0] = 2351
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2351
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2351
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 152
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 357352
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 357352
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 357352
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 357352
+ADD *[rbp+0] += 1
+*[rbp+0] = 357353
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 357353
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 357353
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4904
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1752459112
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1752459112
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752459112
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1752459112
+ADD *[rbp+0] += 1
+*[rbp+0] = 1752459113
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752459113
+WRITE 4 bytes of **[rbp+24]
+68746769
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1752459113
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 32
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 35
+*[rbp+4] = 35
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 490
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 490
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 490
+ADD *[rbp+0] += 1
+*[rbp+0] = 491
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 491
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 491
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 32
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 15712
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 15712
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 15712
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 268
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 268
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 268
+ADD *[rbp+0] += 1
+*[rbp+0] = 269
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 269
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 229
+*[rbp+4] = 229
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 458
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 458
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 458
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 269
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 123202
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 123202
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123202
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 123202
+ADD *[rbp+0] += 1
+*[rbp+0] = 123203
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 123203
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 123203
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 15712
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1935765536
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1935765536
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1935765536
+WRITE 4 bytes of **[rbp+24]
+73617020
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1935765536
+MOV *[rbp+0] = 51
+*[rbp+0] = 51
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 51
+MOV *[rbp+0] = 64
+*[rbp+0] = 64
+MOV *[rbp+4] = 87
+*[rbp+4] = 87
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5568
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 104
+*[rbp+4] = 104
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6760
+ADD *[rbp+0] += 1
+*[rbp+0] = 6761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5568
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 37645248
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 37645248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645248
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 37645248
+ADD *[rbp+0] += 1
+*[rbp+0] = 37645249
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 37645249
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 37645249
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 51
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1919907699
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1919907699
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1919907699
+WRITE 4 bytes of **[rbp+24]
+726f7773
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1919907699
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 378
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 378
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 378
+ADD *[rbp+0] += 1
+*[rbp+0] = 379
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 379
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 379
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 758
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 26
+*[rbp+4] = 26
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 442
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 442
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 442
+ADD *[rbp+0] += 1
+*[rbp+0] = 443
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 443
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 443
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 886
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 886
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 758
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 671588
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 671588
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+WRITE 4 bytes of **[rbp+24]
+a3f64
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 671588
+INPUT
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 671588
+MOV *[rbp+0] = 82
+*[rbp+0] = 82
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 82
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 24
+*[rbp+4] = 24
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 432
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 432
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 432
+ADD *[rbp+0] += 1
+*[rbp+0] = 433
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 433
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 433
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 82
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 35506
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 35506
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35506
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 35506
+ADD *[rbp+0] += 1
+*[rbp+0] = 35507
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35507
+MOV *[rbp+0] = 16
+*[rbp+0] = 16
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 16
+MOV *[rbp+0] = 56
+*[rbp+0] = 56
+MOV *[rbp+4] = 66
+*[rbp+4] = 66
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3696
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3696
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3696
+ADD *[rbp+0] += 1
+*[rbp+0] = 3697
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3697
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3697
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 16
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 59152
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 59152
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 59152
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 59152
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35507
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2100310064
+MOV *[rbp+12] = *[rbp+8]
+*[rbp+12] = 2100310064
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+12] = 2100310064
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2100310064
+MOV *[rbp+4] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+4] = 671588
+SUB *[rbp+16] = *[rbp+0] - [rbp+4] = 2099638476
+LSEEK 4 bytes
+EXIT
+MOV *[rbp+0] = 17
+*[rbp+0] = 17
+MOV *[rbp+4] = 19
+*[rbp+4] = 19
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 323
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 323
+MOV *[rbp+0] = 32
+*[rbp+0] = 32
+MOV *[rbp+4] = 56
+*[rbp+4] = 56
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1792
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1792
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+MOV *[rbp+4] = 107
+*[rbp+4] = 107
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1498
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1498
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1498
+ADD *[rbp+0] += 1
+*[rbp+0] = 1499
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1499
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1499
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2998
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2998
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2998
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2998
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1792
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 5372416
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 5372416
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5372416
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 5372416
+ADD *[rbp+0] += 1
+*[rbp+0] = 5372417
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5372417
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 5372417
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 323
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1735290691
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1735290691
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1735290691
+WRITE 4 bytes of **[rbp+24]
+676e6f43
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1735290691
+MOV *[rbp+0] = 23
+*[rbp+0] = 23
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 23
+MOV *[rbp+0] = 31
+*[rbp+0] = 31
+MOV *[rbp+4] = 60
+*[rbp+4] = 60
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1860
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1860
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1860
+ADD *[rbp+0] += 1
+*[rbp+0] = 1861
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1861
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1861
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 23
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 42803
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 42803
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 42803
+MOV *[rbp+0] = 187
+*[rbp+0] = 187
+MOV *[rbp+4] = 242
+*[rbp+4] = 242
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 45254
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 45254
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 45254
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 42803
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1937006962
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1937006962
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1937006962
+WRITE 4 bytes of **[rbp+24]
+73746172
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1937006962
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 68
+*[rbp+0] = 68
+MOV *[rbp+4] = 89
+*[rbp+4] = 89
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 6052
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6052
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 6052
+ADD *[rbp+0] += 1
+*[rbp+0] = 6053
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6053
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 6053
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 12106
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 12106
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 12106
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 12106
+ADD *[rbp+0] += 1
+*[rbp+0] = 12107
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 12107
+MOV *[rbp+0] = 10
+*[rbp+0] = 10
+MOV *[rbp+4] = 31
+*[rbp+4] = 31
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 310
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 310
+MOV *[rbp+0] = 15
+*[rbp+0] = 15
+MOV *[rbp+4] = 29
+*[rbp+4] = 29
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 435
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 435
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 435
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 310
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 134850
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 134850
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 134850
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 134850
+ADD *[rbp+0] += 1
+*[rbp+0] = 134851
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 134851
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 134851
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 12107
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1632641057
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1632641057
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1632641057
+WRITE 4 bytes of **[rbp+24]
+61502021
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1632641057
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 18
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 486
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 486
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 486
+ADD *[rbp+0] += 1
+*[rbp+0] = 487
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 487
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 487
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1948
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1948
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1948
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1948
+ADD *[rbp+0] += 1
+*[rbp+0] = 1949
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1949
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1949
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 18
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 35082
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 35082
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35082
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 35082
+ADD *[rbp+0] += 1
+*[rbp+0] = 35083
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35083
+MOV *[rbp+0] = 35
+*[rbp+0] = 35
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 35
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 38
+*[rbp+4] = 38
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 760
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 760
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 760
+ADD *[rbp+0] += 1
+*[rbp+0] = 761
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 761
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 761
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1522
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1522
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1522
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1522
+ADD *[rbp+0] += 1
+*[rbp+0] = 1523
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1523
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1523
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 53305
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 53305
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 53305
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 53305
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 35083
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1870099315
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1870099315
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1870099315
+WRITE 4 bytes of **[rbp+24]
+6f777373
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1870099315
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 26
+MOV *[rbp+0] = 10
+*[rbp+0] = 10
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 10
+MOV *[rbp+0] = 19
+*[rbp+0] = 19
+MOV *[rbp+4] = 24
+*[rbp+4] = 24
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 456
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 456
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 456
+ADD *[rbp+0] += 1
+*[rbp+0] = 457
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 457
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 457
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 10
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4570
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4570
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4570
+MOV *[rbp+0] = 58
+*[rbp+0] = 58
+MOV *[rbp+4] = 79
+*[rbp+4] = 79
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 4582
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4582
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 4582
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4570
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 20939740
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 20939740
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 20939740
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 20939740
+ADD *[rbp+0] += 1
+*[rbp+0] = 20939741
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 20939741
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 20939741
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 26
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 544433266
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 544433266
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 544433266
+WRITE 4 bytes of **[rbp+24]
+20736472
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 544433266
+MOV *[rbp+0] = 52
+*[rbp+0] = 52
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 52
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 107
+*[rbp+4] = 107
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2140
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2140
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2140
+ADD *[rbp+0] += 1
+*[rbp+0] = 2141
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2141
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2141
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4282
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4282
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4282
+MOV *[rbp+0] = 5
+*[rbp+0] = 5
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 101
+*[rbp+4] = 101
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 808
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 808
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 808
+ADD *[rbp+0] += 1
+*[rbp+0] = 809
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 809
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 809
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1618
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1618
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1618
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1618
+ADD *[rbp+0] += 1
+*[rbp+0] = 1619
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1619
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1619
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 8095
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 8095
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8095
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 8095
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4282
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 34662790
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 34662790
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 34662790
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 34662790
+ADD *[rbp+0] += 1
+*[rbp+0] = 34662791
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 34662791
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 34662791
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 52
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1802465132
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1802465132
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1802465132
+WRITE 4 bytes of **[rbp+24]
+6b6f6f6c
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1802465132
+MOV *[rbp+0] = 196
+*[rbp+0] = 196
+MOV *[rbp+4] = 204
+*[rbp+4] = 204
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 39984
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 39984
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 16
+*[rbp+0] = 16
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 16
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 486
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 486
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 486
+ADD *[rbp+0] += 1
+*[rbp+0] = 487
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 487
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 487
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 16
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 7792
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 7792
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7792
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 7792
+ADD *[rbp+0] += 1
+*[rbp+0] = 7793
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 7793
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 7793
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 46758
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 46758
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 46758
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 46758
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 39984
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1869571872
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1869571872
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1869571872
+WRITE 4 bytes of **[rbp+24]
+6f6f6720
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1869571872
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 16
+*[rbp+0] = 16
+MOV *[rbp+4] = 21
+*[rbp+4] = 21
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 336
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 336
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 336
+ADD *[rbp+0] += 1
+*[rbp+0] = 337
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 337
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 337
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1348
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1348
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1348
+MOV *[rbp+0] = 248
+*[rbp+0] = 248
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 248
+MOV *[rbp+0] = 65
+*[rbp+0] = 65
+MOV *[rbp+4] = 86
+*[rbp+4] = 86
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 5590
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5590
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 5590
+ADD *[rbp+0] += 1
+*[rbp+0] = 5591
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5591
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 5591
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 248
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1386568
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1386568
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1386568
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1386568
+ADD *[rbp+0] += 1
+*[rbp+0] = 1386569
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1386569
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1386569
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1348
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1869095012
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1869095012
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1869095012
+WRITE 4 bytes of **[rbp+24]
+6f682064
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1869095012
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+MOV *[rbp+4] = 233
+*[rbp+4] = 233
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 466
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 466
+MOV *[rbp+0] = 15
+*[rbp+0] = 15
+MOV *[rbp+4] = 113
+*[rbp+4] = 113
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1695
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1695
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 91
+*[rbp+4] = 91
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2366
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2366
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2366
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1695
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4010370
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4010370
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4010370
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 4010370
+ADD *[rbp+0] += 1
+*[rbp+0] = 4010371
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4010371
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 4010371
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 466
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1868832886
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1868832886
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1868832886
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1868832886
+ADD *[rbp+0] += 1
+*[rbp+0] = 1868832887
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1868832887
+WRITE 4 bytes of **[rbp+24]
+6f642077
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1868832887
+MOV *[rbp+0] = 112
+*[rbp+0] = 112
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 112
+MOV *[rbp+0] = 12
+*[rbp+0] = 12
+MOV *[rbp+4] = 29
+*[rbp+4] = 29
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 348
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 348
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 348
+ADD *[rbp+0] += 1
+*[rbp+0] = 349
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 349
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 349
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 112
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 39088
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 39088
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 39088
+MOV *[rbp+0] = 14
+*[rbp+0] = 14
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 14
+MOV *[rbp+0] = 42
+*[rbp+0] = 42
+MOV *[rbp+4] = 74
+*[rbp+4] = 74
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3108
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3108
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3108
+ADD *[rbp+0] += 1
+*[rbp+0] = 3109
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3109
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3109
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 14
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 43526
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 43526
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 43526
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 43526
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 39088
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1701344288
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1701344288
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1701344288
+WRITE 4 bytes of **[rbp+24]
+65687420
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1701344288
+MOV *[rbp+0] = 15
+*[rbp+0] = 15
+MOV *[rbp+4] = 29
+*[rbp+4] = 29
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 435
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 435
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 16
+*[rbp+0] = 16
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 16
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 79
+*[rbp+4] = 79
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 316
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 316
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+MOV *[rbp+4] = 67
+*[rbp+4] = 67
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 402
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 402
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 402
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 316
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 127032
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 127032
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 127032
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 127032
+ADD *[rbp+0] += 1
+*[rbp+0] = 127033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 127033
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 127033
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 16
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2032528
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2032528
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2032528
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2032528
+ADD *[rbp+0] += 1
+*[rbp+0] = 2032529
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2032529
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2032529
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 4065058
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 4065058
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4065058
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 4065058
+ADD *[rbp+0] += 1
+*[rbp+0] = 4065059
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4065059
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 4065059
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 435
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1768300665
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1768300665
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1768300665
+WRITE 4 bytes of **[rbp+24]
+69662079
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1768300665
+MOV *[rbp+0] = 60
+*[rbp+0] = 60
+MOV *[rbp+4] = 149
+*[rbp+4] = 149
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 8940
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 8940
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 2
+*[rbp+0] = 2
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2
+MOV *[rbp+0] = 172
+*[rbp+0] = 172
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 172
+MOV *[rbp+0] = 16
+*[rbp+0] = 16
+MOV *[rbp+4] = 19
+*[rbp+4] = 19
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 304
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 304
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 304
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 172
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 52288
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 52288
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 52288
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 52288
+ADD *[rbp+0] += 1
+*[rbp+0] = 52289
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 52289
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 52289
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 104578
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 104578
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 104578
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 104578
+ADD *[rbp+0] += 1
+*[rbp+0] = 104579
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 104579
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 104579
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 2
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 209158
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 209158
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 209158
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 209158
+ADD *[rbp+0] += 1
+*[rbp+0] = 209159
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 209159
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 209159
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 8940
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1869881460
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1869881460
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1869881460
+WRITE 4 bytes of **[rbp+24]
+6f742074
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1869881460
+MOV *[rbp+0] = 12
+*[rbp+0] = 12
+MOV *[rbp+4] = 61
+*[rbp+4] = 61
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 732
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 732
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 732
+ADD *[rbp+0] += 1
+*[rbp+0] = 733
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 733
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 3
+*[rbp+0] = 3
+MOV *[rbp+4] = 157
+*[rbp+4] = 157
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 471
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 471
+MOV *[rbp+0] = 18
+*[rbp+0] = 18
+MOV *[rbp+4] = 47
+*[rbp+4] = 47
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 846
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 846
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 846
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 471
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 398466
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 398466
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 398466
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 398466
+ADD *[rbp+0] += 1
+*[rbp+0] = 398467
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 398467
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 398467
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 2390802
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 2390802
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2390802
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2390802
+ADD *[rbp+0] += 1
+*[rbp+0] = 2390803
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2390803
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2390803
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 733
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1752458599
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1752458599
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1752458599
+WRITE 4 bytes of **[rbp+24]
+68746567
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1752458599
+MOV *[rbp+0] = 20
+*[rbp+0] = 20
+MOV *[rbp+4] = 27
+*[rbp+4] = 27
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 540
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 540
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 540
+ADD *[rbp+0] += 1
+*[rbp+0] = 541
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 541
+MOV *[rbp+0] = 33
+*[rbp+0] = 33
+MOV *[rbp+4] = 53
+*[rbp+4] = 53
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1749
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1749
+MOV *[rbp+0] = 8
+*[rbp+0] = 8
+MOV *[rbp+4] = 233
+*[rbp+4] = 233
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1864
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1864
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1864
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 1749
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3260136
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3260136
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3260136
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3260136
+ADD *[rbp+0] += 1
+*[rbp+0] = 3260137
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3260137
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3260137
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 541
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 1763734117
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 1763734117
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1763734117
+WRITE 4 bytes of **[rbp+24]
+69207265
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 1763734117
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 6
+MOV *[rbp+0] = 36
+*[rbp+0] = 36
+MOV *[rbp+4] = 101
+*[rbp+4] = 101
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 3636
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3636
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 3636
+ADD *[rbp+0] += 1
+*[rbp+0] = 3637
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3637
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 3637
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 6
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 21822
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 21822
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 21822
+MOV *[rbp+0] = 11
+*[rbp+0] = 11
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 11
+MOV *[rbp+0] = 22
+*[rbp+0] = 22
+MOV *[rbp+4] = 103
+*[rbp+4] = 103
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2266
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2266
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 2266
+ADD *[rbp+0] += 1
+*[rbp+0] = 2267
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2267
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 2267
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 11
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 24937
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 24937
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 24937
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 24937
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 21822
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 544175214
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 544175214
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 544175214
+WRITE 4 bytes of **[rbp+24]
+206f746e
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 544175214
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 4
+MOV *[rbp+0] = 26
+*[rbp+0] = 26
+MOV *[rbp+4] = 33
+*[rbp+4] = 33
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 858
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 858
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 858
+ADD *[rbp+0] += 1
+*[rbp+0] = 859
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 859
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 859
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 4
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3436
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3436
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3436
+MOV *[rbp+0] = 4
+*[rbp+0] = 4
+MOV *[rbp+4] = 79
+*[rbp+4] = 79
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 316
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 316
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 316
+ADD *[rbp+0] += 1
+*[rbp+0] = 317
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 317
+MOV *[rbp+0] = 6
+*[rbp+0] = 6
+MOV *[rbp+4] = 83
+*[rbp+4] = 83
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 498
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 498
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 498
+ADD *[rbp+0] += 1
+*[rbp+0] = 499
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 499
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 499
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 317
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 158183
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 158183
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 158183
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 158183
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 3436
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 543516788
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 543516788
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 543516788
+WRITE 4 bytes of **[rbp+24]
+20656874
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 543516788
+MOV *[rbp+0] = 38
+*[rbp+0] = 38
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 38
+MOV *[rbp+0] = 24
+*[rbp+0] = 24
+MOV *[rbp+4] = 43
+*[rbp+4] = 43
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 1032
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1032
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 1032
+ADD *[rbp+0] += 1
+*[rbp+0] = 1033
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 1033
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 1033
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 38
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 39254
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 39254
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 39254
+MOV *[rbp+0] = 5
+*[rbp+0] = 5
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 5
+MOV *[rbp+0] = 188
+*[rbp+0] = 188
+MOV *[rbp+4] = 94
+*[rbp+4] = 94
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 17672
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 17672
+MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+0] = 17672
+ADD *[rbp+0] += 1
+*[rbp+0] = 17673
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 17673
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 17673
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 5
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 88365
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 88365
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 88365
+MOV *[rbp+8] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+8] = 88365
+MOV *[rbp+12] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+12] = 39254
+MUL *[rbp+8] *= *[rbp+12] THEN ADD *[rbp+8] += 0
+*[rbp+8] = 3468679710
+MOV *[rbp+0] = *[rbp+8]
+*[rbp+0] = 3468679710
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 3468679710
+WRITE 4 bytes of **[rbp+24]
+cebfda1e
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 3468679710
+MOV *[rbp+0] = 43
+*[rbp+0] = 43
+MOV *[rbp+4] = 61
+*[rbp+4] = 61
+MUL *[rbp+0] *= *[rbp+4] THEN ADD *[rbp+0] += 0
+*[rbp+0] = 2623
+ADD *[rbp+24] += 8 THEN MOV **[rbp+24] = [rbp+0] = 2623
+WRITE 4 bytes of **[rbp+24]
+a3f
+MOV *[rbp+16] = **[rbp+24] THEN SUB *[rbp+24] -= 8
+*[rbp+16] = 2623
+EXIT
