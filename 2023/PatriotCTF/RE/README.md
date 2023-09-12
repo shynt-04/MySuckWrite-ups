@@ -478,13 +478,13 @@ if f[ptr] == 0x13:
 
 Now we get `leak.txt` but it has more than 120000 lines...
 
-I'm about to quit and wait for WU but after looking through leak file, we can see the repeat pattern.
+I'm about to quit and wait for WU but after looking through leak file, we can see the repeated pattern.
 
-Ignore intructions before `GETC` because its work is just print `Can you ...`
+Ignore intructions before `GETC` because its work is just print `Can you ...` (the message appeared when you run)
 
-`GETC` stand for `getchar()` in C. There are 840 `GETC` called so our input have length equal to 840
+`GETC` stand for `getchar()` in C. There are 840 `GETC` called so our input's length has to be 840 characters
 
-Now let look first check after `GETC`, remember instruction `LSEEK` explained above, those instruction from `LSEEK` to `EXIT` will be ignored because it print `Wrong!` then exit program:
+Now let's look the first check after `GETC`, remember instruction `LSEEK` explained above, those instructions from `LSEEK` to `EXIT` will be ignored because they just print `Wrong!` then exit program:
 
 ```c
 MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
