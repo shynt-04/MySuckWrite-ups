@@ -423,7 +423,7 @@ Convert and get the flag:
 > p/s: read the easier one first
 
 
-`vm2` is just like `vm` but extend 6 more type of instruction:
+`vm2` is just like `vm` but extend 6 more types of instruction:
 
 ```c
   case 0xe:
@@ -565,7 +565,7 @@ Is it clear? Our input will be encrypted by simple algorithm: `input[i] = (input
 
 However, after scrolling and looking at the transition, the actual algorithm is `input[i] = (input[i] ^ data[i - 1] + i % 255) % 255`
 
-Now, our work is write a script to leak `data`, notice that after `MODULO` the next `MOV` will give us `data` we need. So, we just need add a boolean `have_important_data` to print only the `data`
+Now, our work is write a script to leak `data`, notice that after `MODULO`, the next `MOV` will give us `data` we need. So, we just need add a boolean `have_important_data` to print only the `data`
 
 ```python
 f = open("./password_checker2.smol", "rb").read()
