@@ -484,7 +484,7 @@ Ignore intructions before `GETC` because its work is just print `Can you ...` (t
 
 `GETC` stand for `getchar()` in C. There are 840 `GETC` called so our input's length has to be 840 characters
 
-Now let's look the first check after `GETC`, remember instruction `LSEEK` explained above, those instructions from `LSEEK` to `EXIT` will be ignored because they just print `Wrong!` then exit program:
+Now let's look the first check after `GETC`. I have explained `LSEEK` above, those instructions from `LSEEK` to `EXIT` will be ignored because they just print `Wrong!` then exit program:
 
 ```c
 MOV *[rbp+0] = **[rbp+24] THEN SUB *[rbp+24] -= 8
