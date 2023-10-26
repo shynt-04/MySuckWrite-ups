@@ -1,0 +1,3 @@
+- check IDA thấy main_0 funtion, đi theo flow code đến hàm validate
+- trong hàm validate ta thấy hàm create key, key sẽ được mov vào eax ngay sau call hàm này
+- debug trong ida, lấy giá trị của eax, ta được key là: "The key is: 4253360"
