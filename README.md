@@ -1,6 +1,6 @@
 # CTF Write-ups
 
-These are my naive write-ups for CTFs I joined.
+These are my naive write-ups for CTFs I joined with [my team](https://ctftime.org/team/222930).
 
 ## CTFs history
 | Year | Competion | Ranking | Team | Author's WU | Discord |
@@ -12,3 +12,5 @@ These are my naive write-ups for CTFs I joined.
 | 2023 | DownUnderCTF| 313 | shynt_ | https://github.com/DownUnderCTF/Challenges_2023_Public | https://duc.tf/discord |
 | 2023 | SekaiCTF | 187 | im_dragon | https://github.com/project-sekai-ctf/sekaictf-2023 | https://discord.gg/6gk7jhCgGX |
 | 2023 | PatriotCTF | 46 | im_dragon | https://github.com/MasonCompetitiveCyber/PatriotCTF2023 | https://discord.gg/Z8pA43vQcW |
+| 2024 | WolvCTF | 42 | im_dragon |  | |
+| 2024 | Break The Syntax | 10 | im_dragon | https://github.com/PWrWhiteHats/BtS-2024-Writeups | |
