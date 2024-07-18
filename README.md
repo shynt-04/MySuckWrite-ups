@@ -14,3 +14,4 @@ These are my naive write-ups for CTFs I joined with [my team](https://ctftime.or
 | 2023 | PatriotCTF | 46 | im_dragon | https://github.com/MasonCompetitiveCyber/PatriotCTF2023 | https://discord.gg/Z8pA43vQcW |
 | 2024 | WolvCTF | 42 | im_dragon |  | |
 | 2024 | Break The Syntax | 10 | im_dragon | https://github.com/PWrWhiteHats/BtS-2024-Writeups | |
+| 2024 | OS CTF | 55 | im_dragon | | https://discord.gg/gjHqWGDh |
